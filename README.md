@@ -1,2 +1,5 @@
-# Desafio1-Gama_Academy-Hiring_Coders
-Landing Page do Desafio1 do Hiring Coders da Gama Academy
+
+# Desafio #1 - Hiring Coders - [VTEX](https://vtex.com/) realizado pela [Gama Academy](https://www.gama.academy/)
+
+## Landing page de e-commerce/Black Friday
+![Logo do Markdown](./assets/imagens/Landing-page-git.png)
