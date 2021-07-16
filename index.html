@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="./assets/fonts/style.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fontlibrary.org//face/segment7"
+      type="text/css"
+    />
+
+    <title>Desafio1 - Black Friday</title>
+  </head>
+
+  <body>
+    <!-- header -->
+    <header>
+      <div class="header">
+        <img
+          src="./assets/imagens/logo-gama-academy.png"
+          alt="logo gama academy"
+        />
+        <h2 class="store-name">HC STORE</h2>
+        <div class="links">
+          <ul>
+            <a
+              href="https://api.whatsapp.com/send?phone=+5511998456754&amp"
+              class="button"
+              target="_blank"
+            >
+              <li><i class="icon-whatsapp"></i>+55 (11) 98765-4321</li>
+            </a>
+
+            <a href="mailto:acme@acme.com" target="_blank">
+              <li><i class="icon-mail"></i> acme@acme.com</li>
+            </a>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-- Main -->
+    <main class="wrap-main">
+      <div class="wrap-form">
+        <div id="formulario">
+          <p>
+            Cadastre-se aqui para receber as ofertas do Black Friday HC Store!
+          </p>
+          <form>
+            <div>
+              <input type="text" id="nome" placeholder="Nome" />
+            </div>
+            <div>
+              <input type="text" id="email" placeholder="E-mail" />
+            </div>
+            <div class="button" id="button">
+              <button id="enviar" type="button">Quero me cadastrar</button>
+            </div>
+          </form>
+          <p>
+            Ao enviar seus dados, você aceita nossa Política de Privacidade além
+            de receber nossas ofertas e publicidade enviado por
+            <a href="https://www.gama.academy/"> Gama Academy/Hiring Coders</a>
+            e nossos parceiros.
+          </p>
+        </div>
+      </div>
+      <div>
+        <img
+          class="imagemBF"
+          src="./assets/imagens/blackfriday-neon.gif"
+          alt="imagem black friday"
+        />
+      </div>
+      <div class="tags">
+        <img src="./assets/imagens/desconto1.png" alt="imagem desconto" />
+        <p class="ou">OU</p>
+
+        <img src="./assets/imagens/desconto2.png" alt="imagem desconto" />
+      </div>
+    </main>
+
+    <!-- Countdown start -->
+    <div class="countdown">
+      <div id="countdown_dashboard">
+        <div class="dashp">
+          <p class="dashtitle">Dias</p>
+          <p id="days"></p>
+        </div>
+        <div class="dashp">
+          <p class="dashtitle">Horas</p>
+          <p id="hours"></p>
+        </div>
+        <div class="dashp">
+          <p class="dashtitle">Minutos</p>
+          <p id="minutes"></p>
+        </div>
+        <div class="dashp">
+          <p class="dashtitle">Segundos</p>
+          <p id="seconds"></p>
+        </div>
+      </div>
+    </div>
+    <!-- Countdown end -->
+  </body>
+  <script src="./script/script.js"></script>
+</html>
