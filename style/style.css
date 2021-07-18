@@ -29,7 +29,7 @@ body {
 .header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around; 
   height: 4.5rem;
   padding: 1rem;
   margin: 1rem;
@@ -52,7 +52,7 @@ body {
 .links ul li {
   display: flex;
   align-items: center;
-  margin: 0 0rem 0.75rem 0;
+  margin: 0 0 0.75rem 0;
 }
 
 li {
@@ -220,3 +220,6 @@ input {
   font-family: "Montserrat", sans-serif;
   font-size: 0.75rem;
 }
+
+
+
