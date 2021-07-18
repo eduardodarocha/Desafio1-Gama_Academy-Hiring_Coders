@@ -2,7 +2,7 @@ function countdown() {
   var now = new Date();
 
   // Altere a data do seu evento aqui
-  var eventDate = new Date("Jul 31, 2021 00:00:00");
+  var eventDate = new Date("Sep 31, 2021 00:00:00");
 
   var currentTime = now.getTime();
   var eventTime = eventDate.getTime();
