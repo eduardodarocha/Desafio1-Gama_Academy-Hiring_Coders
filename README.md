@@ -5,6 +5,7 @@
 
 - Deploy na [Netlify](https://desafio1-hiring-coders-vtex.netlify.app/)
 - Deploy na [Vercel](https://desafio1-gama-academy-hiring-coders.vercel.app/)
+- Deploy no [Github Pages](https://eduardodarocha.github.io/Desafio1-Gama_Academy-Hiring_Coders/)
 
 ## Desafios:
 
